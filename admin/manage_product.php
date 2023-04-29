@@ -106,11 +106,11 @@ label[for="chooseFile"]:hover{
 }
 	input[type=checkbox]
 {
-  /* Double-sized Checkboxes */
-  -ms-transform: scale(1.5); /* IE */
-  -moz-transform: scale(1.5); /* FF */
-  -webkit-transform: scale(1.5); /* Safari and Chrome */
-  -o-transform: scale(1.5); /* Opera */
+  /*  flixing the page for varieties of browsers */
+  -ms-transform: scale(1.5); 
+  -moz-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  -o-transform: scale(1.5);
   transform: scale(1.5);
   padding: 10px;
 }
@@ -263,7 +263,7 @@ img#img_path-field{
         var file = files[i];
         var reader = new FileReader();
 
-        //attach product handlers here...
+        //attaching product handlers here...
 
         reader.readAsDataURL(file);
         addproductHandler(reader, 'loadend', function(e, file) {

@@ -128,7 +128,7 @@
                 </div>
             </div>
             <br>
-            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - <?php echo $_SESSION['system']['name'] ?> | <a href="https://www.sourcecodester.com/" target="_blank">Sourcecodester</a></div></div>
+            <div class="container"><div class="small text-center text-muted">Copyright © 2023 - <?php echo $_SESSION['system']['name'] ?> | <a href="" target="_blank">BidHub @GoaUniversity</a></div></div>
         </footer>
         
        <?php include('footer.php') ?>
